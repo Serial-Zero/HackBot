@@ -8,7 +8,7 @@ namespace HackBot.Modules
     public class IPModule : IModule
     {
         public string Name => "IP";
-        public string Description => "Fetch and display your public IP address";
+        public string Description => "Fetch and display victim's public IP address";
 
         public async Task ExecuteAsync()
         {
